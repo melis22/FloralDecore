@@ -2,61 +2,147 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5M6B9RKJM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5M6B9RKJM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-Y5M6B9RKJM');
-</script>
+        gtag('config', 'G-Y5M6B9RKJM');
+    </script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="Den Fantastiska sidan för dig som älskar blommor">
-    <meta name="keywords" content="florist, decorativa blommor, present blommor, blommor till heminredning, blommor till flickvän">
+    <meta name="keywords"
+        content="florist, decorativa blommor, present blommor, blommor till heminredning, blommor till flickvän">
     <meta name="author" content="Melis Akcay">
     <title>Floral Decore</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 
-
 <body style="background-color: black;" onload="buildMenu()">
     <div class="menydiv">
-    <header class="flexbox">
-        <aside class="logga">här ska loggan vara</aside>
-        <section class="menybox"><ul id="meny"></ul> </section>
-        <aside class="instagramlank">här ska instagram vara</aside>
-    </header>
-</div>
+        <header class="flexbox">
+            <aside class="logga"><img style="width: 100px; height: 100px;" src="picture\logga.png" alt="logga"></aside>
+            <section style="text-align: right;" class="menybox">
+                <ul id="meny"></ul>
+            </section>
+            <aside style="text-align: right;" class="instagramlank"><img style="width:50px; height: 50px;"
+                    src="picture\instagram.png" alt="Instagram logga"></aside>
+        </header>
+    </div>
 
     <h1>Floral Decore</h1>
 
-    
-    <div class=" centrerad-h1">
+    <div>
+        <p>"Välkommen till Floral Decore, ditt hem för blomstermagi och dekorativa underverk.
+            Hos oss går blommor långt utöver att vara en enkel dekoration – de är en konstform, en källa till skönhet
+            och en
+            väg till att skapa det perfekta hemmet.
+            Med passion och kreativitet i hjärtat av allt vi gör,
+            erbjuder Floral Decore ett exklusivt urval av blommor som presenter och dekorativa arrangemang som är lika
+            unika
+            som ditt eget hem.
+            Utforska vårt sortiment och upptäck hur blommor kan förvandla ditt utrymme till något extraordinärt.
+            Välkommen till en värld av blomsterkonst, välkommen till Floral Decore."
+        </p>
     </div>
 
-    <p>"Välkommen till Floral Decore, ditt hem för blomstermagi och dekorativa underverk.
-        Hos oss går blommor långt utöver att vara en enkel dekoration – de är en konstform, en källa till skönhet och en
-        väg till att skapa det perfekta hemmet.
-        Med passion och kreativitet i hjärtat av allt vi gör,
-        erbjuder Floral Decore ett exklusivt urval av blommor som presenter och dekorativa arrangemang som är lika unika
-        som ditt eget hem.
-        Utforska vårt sortiment och upptäck hur blommor kan förvandla ditt utrymme till något extraordinärt.
-        Välkommen till en värld av blomsterkonst, välkommen till Floral Decore."
-    </p>
+    <!-- SAMARBETSPARTNER -->
+    <div style="text-align: center;">
+        <h2 style="color: bisque;">Våra samarbetspartner</h2>
+    </div>
 
+    <div style="display: flex; flex-direction: row; background-color: black;">
+        <div style="text-align: center; flex-grow: 1;">
+            <a href="interfloradetalj.html">
+                <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\interflora.png"
+                    alt="interflora logga">
+                <h3>Interflora</h3>
+            </a>
+        </div>
+        <div style="text-align: center; flex-grow: 1">
+            <a href="floristkompanietdetalj.html">
+                <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\floriskompaniet.jpg"
+                    alt="floriskompaniet logga">
+                <h3>Floriskompaniet</h3>
+            </a>
+        </div>
+        <div style="text-align: center; flex-grow: 1;">
+            <a href="fruktbukettendetalj.html">
+                <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\frukbuketten.jpg"
+                    alt="blomsterbuketten logga">
+                <h3>Blomsterbuketten</h3>
+            </a>
+        </div>
+    </div>
 
+    <div style="padding-top: 50px; display: flex; justify-content: center;"">
+        <div style=" border: 1px solid grey; width: 1350px;">
+    </div>
+    </div>
 
+    <!-- PRODUKTER -->
+    <div style="padding-top: 50px; text-align: center;">
+        <h2 style="color: bisque;">Produkter</h2>
+    </div>
 
+    <div style="display: flex; flex-direction: row; background-color: black;">
+        <div style="text-align: center; flex-grow: 1;">
+            <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\interfloraprodukt1.jpg"
+                alt="">
+            <h3 style="color: bisque;">Interflora 1</h3>
+            <h4 style="color: bisque;">Detta är en produkt från interflora 1</h4>
+            <h4 style="color: bisque;">2000 kr</h4>
+            <button>Lägg till i kundkorgen</button>
+        </div>
+        <div style="text-align: center; flex-grow: 1">
+            <img style="border: 1px solid white; width: 200px; height: 200px;"
+                src="picture\floristkompanietprodukt1.jpeg" alt="">
+            <h3 style="color: bisque;">floriskompaniet 1</h3>
+            <h4 style="color: bisque;">Detta är en produkt från floriskompaniet 1</h4>
+            <h4 style="color: bisque;">2000 kr</h4>
+            <button>Lägg till i kundkorgen</button>
+        </div>
+        <div style="text-align: center; flex-grow: 1;">
+            <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\fruktbukettenprodukt1.jpeg"
+                alt="">
+            <h3 style="color: bisque;">frukbuketten 1</h3>
+            <h4 style="color: bisque;">Detta är en produkt från Fruktbuketten 1</h4>
+            <h4 style="color: bisque;">2000 kr</h4>
+            <button>Lägg till i kundkorgen</button>
+        </div>
+    </div>
 
-
-
-
-
-
+    <div style="padding-top: 40px; display: flex;flex-direction: row;background-color: black;">
+        <div style="text-align: center; flex-grow: 1;">
+            <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\interfloraprodukt2.jpg"
+                alt="">
+            <h3 style="color: bisque;">Interflora 2</h3>
+            <h4 style="color: bisque;">Detta är en produkt från interflora 2</h4>
+            <h4 style="color: bisque;">2000 kr</h4>
+            <button>Lägg till i kundkorgen</button>
+        </div>
+        <div style="text-align: center; flex-grow: 1">
+            <img style="border: 1px solid white; width: 200px; height: 200px;"
+                src="picture\floristkompanietprodukt2.jpeg" alt="">
+            <h3 style="color: bisque;">floriskompaniet 2</h3>
+            <h4 style="color: bisque;">Detta är en produkt från floriskompaniet 2</h4>
+            <h4 style="color: bisque;">2000 kr</h4>
+            <button>Lägg till i kundkorgen</button>
+        </div>
+        <div style="text-align: center; flex-grow: 1">
+            <img style="border: 1px solid white; width: 200px; height: 200px;" src="picture\fruktbukettenprodukt2.jpeg"
+                alt="">
+            <h3 style="color: bisque;">frukbuketten 2</h3>
+            <h4 style="color: bisque;">Detta är en produkt från Fruktbuketten 2</h4>
+            <h4 style="color: bisque;">2000 kr</h4>
+            <button>Lägg till i kundkorgen</button>
+        </div>
+    </div>
     <script src="script/script.js"></script>
 </body>
 

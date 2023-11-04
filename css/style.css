@@ -1,53 +1,76 @@
-
-
-h1{ 
+h1 {
+    font-size: 70px;
     text-align: center;
-    font-size: 90px;
-    color:bisque;
-    
+    color: bisque;
+
 }
 
-
-li{
-    display: inline; 
-    padding: 10px;
-    
-}
-
-.flexbox{
-    display: flex;
-    flex-direction: row; 
-    
-}
-
-.logga
-{
- flex-grow: 1;
- /* background-color:black; */
- padding: 20px;
- color: bisque;
-}
-
-.menybox
-{
- flex-grow: 1;
- /* background-color:black; */
- padding: 20px;
- 
-}
-
-.instagramlank
-{
- flex-grow: 1;
- /* background-color:black; */
- padding: 20px;
- color: bisque;
-}
-
-a{
+h2 {
+    text-align: center;
     color: bisque;
 }
 
-.menydiv{
+h3 {
+    text-align: center;
+    color: bisque;
+
+}
+
+h4 {
+    text-align: center;
+    color: bisque;
+
+}
+
+h5 {
+    text-align: center;
+    color: bisque;
+
+}
+
+
+p {
+    text-align: center;
+    color: bisque;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logga {
+    flex-grow: 1;
+    /* background-color:black; */
+    padding: 20px;
+    color: bisque;
+}
+
+.menybox {
+    flex-grow: 1;
+    /* background-color:black; */
+    padding: 20px;
+
+}
+
+.instagramlank {
+    flex-grow: 1;
+    /* background-color:black; */
+    padding: 20px;
+    color: bisque;
+}
+
+a {
+    color: bisque;
+}
+
+.menydiv {
     background-color: rgb(68, 65, 65);
 }
