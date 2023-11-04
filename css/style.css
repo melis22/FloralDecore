@@ -74,3 +74,153 @@ a {
 .menydiv {
     background-color: rgb(68, 65, 65);
 }
+
+/* Rating 1*/
+.rating1 {
+    display: block;
+}
+
+.rating1 input {
+    display: none;
+}
+
+.rating1 label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rating1 label:before {
+    content: '\2606';
+    color: white;
+}
+
+.rating1 input:checked ~ label:before {
+    content: '\2605';
+    color: gold;
+}
+
+/* Rating 2*/
+.rating2 {
+    display: block;
+}
+
+.rating2 input {
+    display: none;
+}
+
+.rating2 label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rating2 label:before {
+    content: '\2606';
+    color: white;
+}
+
+.rating2 input:checked ~ label:before {
+    content: '\2605';
+    color: gold;
+}
+
+/* Rating 3*/
+.rating3 {
+    display: block;
+}
+
+.rating3 input {
+    display: none;
+}
+
+.rating3 label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rating3 label:before {
+    content: '\2606';
+    color: white;
+}
+
+.rating3 input:checked ~ label:before {
+    content: '\2605';
+    color: gold;
+}
+
+/* Rating 4*/
+.rating4 {
+    display: block;
+}
+
+.rating4 input {
+    display: none;
+}
+
+.rating4 label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rating4 label:before {
+    content: '\2606';
+    color: white;
+}
+
+.rating4 input:checked ~ label:before {
+    content: '\2605';
+    color: gold;
+}
+
+/* Rating 5*/
+.rating5 {
+    display: block;
+}
+
+.rating5 input {
+    display: none;
+}
+
+.rating5 label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rating5 label:before {
+    content: '\2606';
+    color: white;
+}
+
+.rating5 input:checked ~ label:before {
+    content: '\2605';
+    color: gold;
+}
+
+/* Rating 6*/
+.rating6 {
+    display: block;
+}
+
+.rating6 input {
+    display: none;
+}
+
+.rating6 label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rating6 label:before {
+    content: '\2606';
+    color: white;
+}
+
+.rating6 input:checked ~ label:before {
+    content: '\2605';
+    color: gold;
+}
