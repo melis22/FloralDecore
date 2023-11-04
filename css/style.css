@@ -1,14 +1,53 @@
-.centrerad-h1 {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-}
+
 
 h1{ 
     text-align: center;
-    line-height: 100vh;
+    font-size: 90px;
+    color:bisque;
+    
 }
 
 
+li{
+    display: inline; 
+    padding: 10px;
+    
+}
 
+.flexbox{
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.logga
+{
+ flex-grow: 1;
+ /* background-color:black; */
+ padding: 20px;
+ color: bisque;
+}
+
+.menybox
+{
+ flex-grow: 1;
+ /* background-color:black; */
+ padding: 20px;
+ 
+}
+
+.instagramlank
+{
+ flex-grow: 1;
+ /* background-color:black; */
+ padding: 20px;
+ color: bisque;
+}
+
+a{
+    color: bisque;
+}
+
+.menydiv{
+    background-color: rgb(68, 65, 65);
+}

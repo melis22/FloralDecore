@@ -17,11 +17,22 @@
     <meta name="keywords" content="florist, decorativa blommor, present blommor, blommor till heminredning, blommor till flickvän">
     <meta name="author" content="Melis Akcay">
     <title>Var Butik</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="buildMenu()"> 
+    <header class="flexbox">
+        <aside class="logga">här ska loggan vara</aside>
+        <section class="menybox"><ul id="meny"></ul> </section>
+        <aside class="instagramlank">här ska instagram vara</aside>
+    </header>
+
     <h1>Vår butik</h1>
+    <ul id="meny"></ul>
+    <div class=" centrerad-h1">
+
     <h2>Välkommen till oss på Norrlandsgatan 16 i centrala Stockholm.</h2>
+
     <h3> Vår butik är platsen där blommor blir till konst och hemmet blir till en visuell fest.
         Vi är passionerade om skönhet och kreativitet och strävar efter att berika ditt hem med eleganta blommor och
         dekorationer.
@@ -29,6 +40,6 @@
         Utforska vårt sortiment och låt ditt hem bli en plats av skönhet och inspiration med Floral Drömmar."
     </h3>
 
-
+<script src="script/script.js"></script>
 </body>
 </html>
