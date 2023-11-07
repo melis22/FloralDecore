@@ -108,6 +108,7 @@ function myButtonFunc6() {
 function buildMenu() {
     var links = [
         ["Startsidan", "index.html"],
+        ["Erbjudanden", "https://melisakcay00.wordpress.com/"],
         ["Vår Butik", "varbutik.html"],
         ["Våra tjänster", "varatjanster.html"],
         ["Om oss ", "omoss.html"],
